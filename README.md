@@ -2,7 +2,6 @@
 
 This folder contains different example for different cases. All example are nodejs script, so can be easily run by `node` command.
 
-- plasma - plasma folder contains examples related to plasma api
 - pos - pos folder contains examples related to pos api
 
 ## How to use
@@ -36,33 +35,5 @@ node <file_path>
 let's run a plasma erc20 balance example
 
 ```
-node plasma/erc20/balance.js
-```
-
-## Run example using source code
-
-This section helps you to run the example code with current source code. Generally it is needed for debugging purpose.
-
-### 1. Build & link source code
-
-Run the below command inside root of this project.
-
-```
-npm run build:link
-```
-
-You might get permission issue, in this case run the command using `sudo`.
-
-### 2. Link the library
-
-#### 2.1 Move into examples folder
-
-```
-cd examples
-```
-
-#### 2.2 run link command
-
-```
-npm run link:lib
+node pos\erc20\deposit.js 
 ```
