@@ -1,0 +1,16 @@
+node_modules
+lib
+.DS_Store
+*.log
+dump.rdb
+
+geth
+history
+data/**
+!data/.gitkeep
+*.env
+bundle.js
+dist
+
+*.tgz
+config.json
